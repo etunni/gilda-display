@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="barra" format="1">
+  <advance width="470"/>
+  <outline>
+    <contour>
+      <point x="65" y="326" type="line" name="hr00"/>
+      <point x="405" y="326" type="line"/>
+      <point x="405" y="376" type="line"/>
+      <point x="65" y="376" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="326" width="50" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

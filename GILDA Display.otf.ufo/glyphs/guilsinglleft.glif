@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglleft" format="1">
+  <advance width="289"/>
+  <unicode hex="2039"/>
+  <outline>
+    <contour>
+      <point x="30" y="293" type="curve" name="hr00"/>
+      <point x="30" y="269"/>
+      <point x="62" y="258"/>
+      <point x="181" y="103" type="curve"/>
+      <point x="209" y="124" type="line"/>
+      <point x="117" y="293" type="line"/>
+      <point x="209" y="462" type="line"/>
+      <point x="181" y="483" type="line"/>
+      <point x="62" y="328" smooth="yes"/>
+      <point x="30" y="317" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="124" width="-21" />
+      <hstem pos="483" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

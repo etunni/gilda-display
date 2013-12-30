@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="z" format="1">
+  <advance width="456"/>
+  <unicode hex="007A"/>
+  <outline>
+    <contour>
+      <point x="231" y="22" type="line" smooth="yes" name="hr00"/>
+      <point x="345" y="22"/>
+      <point x="377" y="38"/>
+      <point x="377" y="125" type="curve"/>
+      <point x="389" y="128" type="line"/>
+      <point x="394" y="94"/>
+      <point x="401" y="43"/>
+      <point x="401" y="0" type="curve"/>
+      <point x="40" y="0" type="line"/>
+      <point x="40" y="14" type="line"/>
+      <point x="321" y="451" type="line"/>
+      <point x="230" y="451" type="line" smooth="yes"/>
+      <point x="116" y="451"/>
+      <point x="84" y="435"/>
+      <point x="84" y="348" type="curve"/>
+      <point x="72" y="345" type="line"/>
+      <point x="67" y="379"/>
+      <point x="60" y="430"/>
+      <point x="60" y="473" type="curve"/>
+      <point x="416" y="473" type="line"/>
+      <point x="416" y="462" type="line"/>
+      <point x="128" y="22" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="0" width="22" />
+      <hstem pos="451" width="22" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>
