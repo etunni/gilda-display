@@ -1,137 +1,26 @@
 {
 .appVersion = "3148";
 .formatVersion = 3;
-DisplayStrings = (
-"ĂĂĀĀĄĄǺǺǼǼĆĆČČĈĈĊĊĎĎĔĔĚĚĖĖĒĒĘĘĞĞĜĜĠĠĦĦĤĤĬĬİİĪĪĮĮĨĨĴĴĹĹĽĽŃŃŇŇŎŎŐŐŌŌǾǾŔŔŘŘŚŚŞŞŜŜŦŦŤŤŬŬŰŰŪŪŲŲŮŮŨŨẂẂŴŴẄẄẀẀŶŶỲỲŹŹŻŻŢŢăăāāąąǻǻǽǽććččĉĉċċďďđđĕĕěěėėēēęęğğĝĝġġħħĥĥĭĭīīįįĩĩĵĵĺĺľľŀńńŉŉňňŏŏőőōōǿǿŕŕřřśśşşŝŝŧŧťťŭŭűűūūţţųųůůũũẃẃŵŵẅẅẁẁŷŷỳỳźźżż"
-);
 customParameters = (
 {
-name = descriptions;
-value = "";
-},
-{
-name = licenses;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = sampleTexts;
-value = "";
-},
-{
-name = uniqueID;
-value = "EduardoRodriguezTunni: Gilda Display: 2012";
-},
-{
-name = versionString;
-value = "Version 2.001";
-},
-{
-name = codePageRanges;
+name = fsType;
 value = (
-"1252",
-"1250",
-"1254",
-"1257",
-"bit 29"
 );
 },
 {
-name = openTypeOS2FamilyClass;
-value = (
-0,
-0
-);
-},
-{
-name = panose;
-value = (
-2,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0
-);
-},
-{
-name = openTypeOS2SubscriptXOffset;
-value = 0;
-},
-{
-name = openTypeOS2SubscriptXSize;
-value = 650;
-},
-{
-name = openTypeOS2SubscriptYOffset;
-value = 75;
-},
-{
-name = openTypeOS2SubscriptYSize;
-value = 600;
-},
-{
-name = openTypeOS2SuperscriptXOffset;
-value = 0;
-},
-{
-name = openTypeOS2SuperscriptXSize;
-value = 650;
-},
-{
-name = openTypeOS2SuperscriptYOffset;
-value = 350;
-},
-{
-name = openTypeOS2SuperscriptYSize;
-value = 600;
-},
-{
-name = unicodeRanges;
-value = (
-0,
-1,
-2,
-3,
-5,
-7,
-29,
-31,
-32,
-33,
-35,
-38,
-45,
-60,
-62
-);
-},
-{
-name = vendorID;
-value = TIPO;
-},
-{
-name = trademarks;
-value = "Gilda Display is a trademark of Eduardo Rodriguez Tunni.";
-},
-{
-name = year;
-value = 2012;
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2023-01-20 09:42:30 +0000";
 familyName = "Gilda Display";
 featurePrefixes = (
 {
+automatic = 1;
 code = "languagesystem DFLT dflt;
-languagesystem latn dflt; # Latin default
+
+languagesystem latn dflt;
+languagesystem latn CAT;
 ";
 name = Languagesystems;
 },
@@ -804,6 +693,137 @@ feature liga {
 
 } liga;";
 name = Prefix;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature subs;
+feature sinf;
+feature sups;
+feature frac;
+feature ordn;
+feature case;
+feature salt;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_latn_1 {
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language CAT;
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_0;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = subs;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = sinf;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub dieresis by dieresis.case;
+sub dotaccent by dotaccent.case;
+sub grave by grave.case;
+sub acute by acute.case;
+sub hungarumlaut by hungarumlaut.case;
+sub circumflex by circumflex.case;
+sub caron by caron.case;
+sub breve by breve.case;
+sub ring by ring.case;
+sub tilde by tilde.case;
+sub macron by macron.case;
+sub ringacute by ringacute.case;
+";
+tag = case;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f b by f_b;
+sub f k by f_k;
+";
+tag = dlig;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f i by fi;
+sub f l by fl;
+";
+tag = liga;
+},
+{
+automatic = 1;
+code = "sub commaaccent by commaaccent.salt;
+sub caron by caron.salt;
+";
+tag = salt;
 }
 );
 fontMaster = (
@@ -20511,34 +20531,26 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Gilda'";
+value = "Copyright 2012 The Gilda Display Project Authors (https://github.com/etunni/gilda-display) with Reserved Font Name 'Gilda'.";
 }
 );
-},
-{
-key = versionString;
-value = "Version 2.001";
 },
 {
 key = vendorID;
 value = TIPO;
 },
 {
-key = uniqueID;
-value = "EduardoRodriguezTunni: Gilda Display: 2012";
-},
-{
 key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
 },
 {
 key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 key = trademarks;
@@ -20546,24 +20558,6 @@ values = (
 {
 language = dflt;
 value = "Gilda Display is a trademark of Eduardo Rodriguez Tunni.";
-}
-);
-},
-{
-key = descriptions;
-values = (
-{
-language = dflt;
-value = "";
-}
-);
-},
-{
-key = sampleTexts;
-values = (
-{
-language = dflt;
-value = "";
 }
 );
 }
@@ -20738,5 +20732,5 @@ width = 9;
 UFOFormat = 2;
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 2;
 }

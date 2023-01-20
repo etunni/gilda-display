@@ -1,8 +1,10 @@
+![Sample Image](documentation/image1.png)
+
 ### Gilda Display
 
 Gilda Display is a font of classic proportions, in which we can see the finest treatment of curves, strokes and serifs. The high stroke contrast has especially smooth transitions, making this type perfect for the world of fashion, jewelry and luxury items. Gilda Display typically contributes all its glamor to headlines, but the considered design of this font gives it potential for use in longer texts with a fine page texture.
 
-![Sample Image](documentation/image1.png)
+
 ![Sample Image](documentation/image2.png)
 
 ### Designer
