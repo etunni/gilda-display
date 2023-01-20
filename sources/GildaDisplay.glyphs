@@ -11931,7 +11931,7 @@ unicode = 88;
 glyphname = Y;
 kernLeft = V;
 kernRight = V;
-lastChange = "2023-01-20 11:18:57 +0000";
+lastChange = "2023-01-20 11:29:39 +0000";
 layers = (
 {
 anchors = (
@@ -11941,7 +11941,7 @@ pos = (361,0);
 },
 {
 name = top;
-pos = (361,700);
+pos = (381,700);
 },
 {
 name = topleft;
@@ -12014,7 +12014,7 @@ nodes = (
 (541,685,o),
 (541,654,cs),
 (541,623,o),
-(519,575,o),
+(520,575,o),
 (472,478,cs),
 (395,323,l),
 (305,478,ls),
@@ -12056,7 +12056,7 @@ unicode = 89;
 glyphname = Yacute;
 kernLeft = V;
 kernRight = V;
-lastChange = "2023-01-20 11:18:57 +0000";
+lastChange = "2023-01-20 11:29:39 +0000";
 layers = (
 {
 background = {
@@ -12132,7 +12132,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (201,0);
+pos = (221,0);
 ref = acutecomb.case;
 }
 );
@@ -12145,7 +12145,7 @@ unicode = 221;
 glyphname = Ycircumflex;
 kernLeft = V;
 kernRight = V;
-lastChange = "2023-01-20 11:18:57 +0000";
+lastChange = "2023-01-20 11:29:39 +0000";
 layers = (
 {
 background = {
@@ -12223,7 +12223,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (173,0);
+pos = (193,0);
 ref = circumflexcomb.case;
 }
 );
@@ -12236,7 +12236,7 @@ unicode = 374;
 glyphname = Ydieresis;
 kernLeft = V;
 kernRight = V;
-lastChange = "2023-01-20 11:18:57 +0000";
+lastChange = "2023-01-20 11:29:39 +0000";
 layers = (
 {
 background = {
@@ -12329,7 +12329,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (154,0);
+pos = (174,0);
 ref = dieresiscomb.case;
 }
 );
@@ -12342,7 +12342,7 @@ unicode = 376;
 glyphname = Ygrave;
 kernLeft = V;
 kernRight = V;
-lastChange = "2023-01-20 11:18:57 +0000";
+lastChange = "2023-01-20 11:29:39 +0000";
 layers = (
 {
 background = {
@@ -12420,7 +12420,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (219,0);
+pos = (239,0);
 ref = gravecomb.case;
 }
 );
@@ -17771,7 +17771,8 @@ unicode = 105;
 },
 {
 glyphname = idotless;
-lastChange = "2023-01-20 11:18:57 +0000";
+kernLeft = m;
+lastChange = "2023-01-20 11:31:23 +0000";
 layers = (
 {
 anchors = (
@@ -28653,7 +28654,8 @@ unicode = 160;
 },
 {
 glyphname = period;
-lastChange = "2023-01-20 11:18:57 +0000";
+kernLeft = comma;
+lastChange = "2023-01-20 11:24:23 +0000";
 layers = (
 {
 layerId = master01;
@@ -28685,7 +28687,8 @@ unicode = 46;
 },
 {
 glyphname = comma;
-lastChange = "2023-01-20 11:18:57 +0000";
+kernLeft = comma;
+lastChange = "2023-01-20 11:24:26 +0000";
 layers = (
 {
 layerId = master01;
@@ -30179,7 +30182,9 @@ unicode = 8250;
 },
 {
 glyphname = quotedbl;
-lastChange = "2023-01-20 11:18:57 +0000";
+kernLeft = quotedbl;
+kernRight = quotedbl;
+lastChange = "2023-01-20 11:23:19 +0000";
 layers = (
 {
 layerId = master01;
@@ -30230,7 +30235,9 @@ unicode = 34;
 },
 {
 glyphname = quotesingle;
-lastChange = "2023-01-20 11:18:57 +0000";
+kernLeft = quotedbl;
+kernRight = quotedbl;
+lastChange = "2023-01-20 11:23:46 +0000";
 layers = (
 {
 layerId = master01;
